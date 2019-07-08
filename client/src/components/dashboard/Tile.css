@@ -1,0 +1,11 @@
+#avatar_img{
+    width: 6.125rem;
+    height: 6.125rem;
+}
+#dashboard_tite{
+    font-size:40px;
+    padding-right:60%;
+}
+#dashboard_logout{
+    font-size:15px;    
+}

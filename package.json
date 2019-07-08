@@ -1,0 +1,33 @@
+{
+  "name": "mern-auth",
+  "version": "1.0.1",
+  "description": "this is the simple mern-auth login sample",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurently \"npm run server\" \" npm run client\""
+  },
+  "author": "jwcrazy",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1",
+    "i": "^0.3.6",
+    "is-empty": "^1.2.0",
+    "js": "^0.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
